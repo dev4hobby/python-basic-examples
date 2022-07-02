@@ -1,7 +1,7 @@
 import turtle
 from random import randint
 
-dice = ["./imagesimages/1.gif", "./images2.gif", "./images3.gif", "./images4.gif", "./images5.gif", "./images6.gif"]
+dice = ["./images/1.gif", "./images2.gif", "./images3.gif", "./images4.gif", "./images5.gif", "./images6.gif"]
 
 if __name__ == "__main__":
   # turtle 모듈 사용
