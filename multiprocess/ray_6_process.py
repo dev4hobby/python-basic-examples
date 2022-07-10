@@ -17,6 +17,10 @@ ray.init(num_cpus=cores)
 begin = datetime.now()
 print(begin)
 
+'''
+ray.remote options
+['accelerator_type', 'memory', 'name', 'num_cpus', 'num_gpus', 'object_store_memory', 'placement_group', 'placement_group_bundle_index', 'placement_group_capture_child_tasks', 'resources', 'runtime_env', 'scheduling_strategy', '_metadata', 'max_calls', 'max_retries', 'num_returns', 'retry_exceptions']
+'''
 @ray.remote
 def func(arr):
   count = 0
